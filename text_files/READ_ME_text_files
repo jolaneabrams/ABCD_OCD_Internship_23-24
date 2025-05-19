@@ -1,0 +1,3 @@
+READ_ME_text_files
+
+Scan data were available of subjects' scans as follows: T1, resting fMRI, test fMRI runs 1 and 2. Not all subjects had all of these scans. These are the results of running scripts used to find subjects whose fMRI scans were present in all OCD or all control directories: OCD T1, resting fMRI, test fMRI run1 and 2 and Control T1, resting fMRI, test fMRI run1 and 2. There are some intermediate steps, as it was not possible to run more than 1500 subjects simultaneously on the computing cluster. 

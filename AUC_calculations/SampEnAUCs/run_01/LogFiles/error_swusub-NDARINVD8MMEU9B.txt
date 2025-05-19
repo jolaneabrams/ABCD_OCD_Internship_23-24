@@ -1,0 +1,5 @@
+{Index in position 4 exceeds array bounds (must not exceed 1).
+
+Error in SampEn_HCP_MSE_maps_JKA_gpt (line 110)
+                        vx_lowfr_mse1(k2,1) = image1(x,y,z,low_fr(k2));
+} 

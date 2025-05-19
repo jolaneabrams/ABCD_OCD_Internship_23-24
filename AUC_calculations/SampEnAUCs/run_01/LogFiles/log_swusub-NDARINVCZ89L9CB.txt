@@ -1,0 +1,24 @@
+total 9
+drwxrwxr-x 2 jabrams niin_global 167456 Oct 23 17:34 Previous_MSE_calcs
+drwxr-xr-x 3 jabrams niin_global  20488 Oct 23 16:47 SampEnAUCs
+-rwxrwxrwx 1 jabrams niin_global   5185 Oct 24 15:39 SampEn_HCP_MSE_maps_JKA_gpt.m
+-rwxrwxrwx 1 jabrams niin_global   1001 Oct 24 15:23 SampEn_HCP_MSE_maps_JKA_gpt_runJOB.sh
+-rwxrwxrwx 1 jabrams niin_global   1225 Oct 24 15:23 SampEn_HCP_MSE_maps_JKA_gpt.sh
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+              R2019b Update 3 (9.7.0.1261785) 64-bit (glnxa64)
+                             November 27, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Running function
+Processing subject: swusub-NDARINVCZ89L9CB
+Loaded brain mask successfully.
+Looking for subject files...
+Found 1 files for subject: swusub-NDARINVCZ89L9CB
+Loading file: /scratch/faculty/kjann/testenv/H_O_ROIs/ROI_output/GLMs/ANCOVAs/pre-ANCOVA/MSE_01_a1s/swusub-NDARINVCZ89L9CB_r0.3_a1_run-01.nii
+Loaded file: /scratch/faculty/kjann/testenv/H_O_ROIs/ROI_output/GLMs/ANCOVAs/pre-ANCOVA/MSE_01_a1s/swusub-NDARINVCZ89L9CB_r0.3_a1_run-01.nii
