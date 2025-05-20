@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+Output_path = /ifs/loni/faculty/kjann/Internship/Jolane_2023/
+Output path mkdir
+-m 777 OCD SamTIs #find /ifs/loni/faculty/kjann/ABCD-Stu/OCD Sample/fmriresults01/abcd-mproc-release4/ -name *baseline*TIw.nii'
+find /ifs/loni/faculty/kjann/ABCD-Stu/OCD Sample/fmriresults01/abcd-mproc-release/ -name "sub*baseline*TIw.nii" -type f exec cp f1 /ifs/loni/faculty/kiann/Internship/Jolane 2023/Scripts/OCD SamTIs/ \;

@@ -1,0 +1,30 @@
+inpath = '/scratch/faculty/kjann/Internship/Jolane_2023/Scripts_new/';
+cd(inpath)
+subj=readtable('allT1s.txt')
+
+pathT1='OCD_SamT1s/';
+pathR1='OCD_SamRests_1/';
+pathR2='OCD_SamRests_2b/';
+
+mkdir('completeDataOCD')
+outpath=[inpath 'completeDataOCD/'];
+cd(outpath);
+
+for s=15:numel(subj)
+    file1 = dir([inpath pathT1 'sub-' subj.name{s} '*baselineYear1*run-01_T1w.nii']);
+    file2 = dir([inpath pathR1 'sub-' subj.name{s} '*baselineYear1*rest*run-01_bold.nii']);
+    file3 = dir([inpath pathR2 'sub-' subj.name{s} '*baselineYear1*rest*run-02_bold.nii']);
+
+    if ~isempty(file1) && ~isempty(file2) && ~isempty(file3)
+        %display('all files here')
+        copyfile([inpath pathT1 file1.name],[outpath file1.name]);
+        copyfile([inpath pathR1 file2.name],[outpath file2.name]);
+        copyfile([inpath pathR2 file3.name],[outpath file3.name]);
+    else
+        
+        display(['subject incomplete:' subj.name{s}])
+        %return
+    end
+
+    clear file*
+end
